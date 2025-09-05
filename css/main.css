@@ -13,6 +13,11 @@ html {
     background-size: cover;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
 nav ul li {
     display: inline;
 }
