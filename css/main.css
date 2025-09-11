@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.4;
     font-family: 'Quicksand';
     background: no-repeat center center fixed;
@@ -13,13 +15,31 @@ html {
     background-size: cover;
 }
 
+body {
+    margin: 1em;
+    padding: 1em;
+    border: 3px solid red;
+}
+
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    border: 3px solid purple;
+}
+
+h1 {
+    font-size: 4.625rem;
+}
+
+nav ul {
+    list-style-type: none;
+    border: 1px solid blue;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
+    justify-content: space-around;
 }
 
 main {
