@@ -13,6 +13,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #f7f8ce;
 }
 
 body {
@@ -40,6 +41,10 @@ nav ul {
 
 nav ul li {
     margin-right: 1em;
+    background-color: #b8b08b;
+    border-radius: 100%;
+    width: 50px;
+    color: black;
 }
 
 main {
@@ -59,6 +64,26 @@ aside ul {
 
 aside p {
     padding-block: .5em;
+}
+
+.welcome {
+    color: #5da3bc;
+}
+
+.gossip {
+    color: #c3787c;
+}
+
+.pics {
+    color: #f2f9cd;
+}
+
+.parties {
+    color: #c37398;
+}
+
+.links {
+    color: #a0cb62;
 }
 
 section {
